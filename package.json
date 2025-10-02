@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --extends @arkhalabs/nsi-rocks-core",
+    "dev": "nuxt dev --extends @arkhalabs/nsi-rocks-core",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@arkhalabs/nsi-rocks-core": "file:../nsi-rocks-core/arkhalabs-nsi-rocks-core-0.1.0.tgz",
+    "nuxt": "^4.1.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@arkhalabs/nsi-tooling": "file:../nsi-rocks-tooling/arkhalabs-nsi-tooling-0.1.0.tgz",
+    "wrangler": "^4.41.0"
+  }
+}
